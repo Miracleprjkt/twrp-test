@@ -22,19 +22,19 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Inherit from hot10 device
-$(call inherit-product, device/infinix/hot10/device.mk)
+$(call inherit-product, device/infinix/Max/device.mk)
 
 # Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
-$(call inherit-product, vendor/omni/config/gsm.mk)
+$(call inherit-product, vendor/twrp/config/common.mk)
+$(call inherit-product, vendor/twrp/config/gsm.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := hot10
-PRODUCT_NAME := omni_hot10
+PRODUCT_DEVICE := Max
+PRODUCT_NAME := twrp_Max
 PRODUCT_BRAND := Infinix
-PRODUCT_MODEL := Infinix Hot 10
+PRODUCT_MODEL := Infinix Max
 PRODUCT_MANUFACTURER := infinix
-PRODUCT_RELEASE_NAME := Infinix Hot 10
+PRODUCT_RELEASE_NAME := Infinix Max
 
 # Dynamic Partition
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
