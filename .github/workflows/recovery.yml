@@ -14,7 +14,7 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/Miraclev1/twrp-test'
+        default: 'https://github.com/Miracleprjkt/twrp-test'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
@@ -26,7 +26,7 @@ on:
       COMMON_TREE_URL:
         description: 'COMMON_TREE_URL (if no common tree, leave blank)'
         required: true
-        default: 'https://github.com/Miraclev1/twrp-test'
+        default: 'https://github.com/Miracleprjkt/twrp-test'
       COMMON_PATH:
         description: 'COMMON_PATH (if no common tree, leave blank)'
         required: true
