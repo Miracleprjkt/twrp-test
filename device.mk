@@ -15,4 +15,4 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/infinix/hot10
+LOCAL_PATH := device/infinix/Max
