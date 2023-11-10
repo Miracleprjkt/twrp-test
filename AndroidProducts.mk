@@ -16,6 +16,6 @@
 #
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/omni_hot10.mk
+     $(LOCAL_DIR)/twrp_Max.mk
 
-COMMON_LUNCH_CHOICES := omni_hot10-eng
+COMMON_LUNCH_CHOICES := twrp_Max-eng
